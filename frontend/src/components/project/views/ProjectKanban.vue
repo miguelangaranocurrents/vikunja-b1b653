@@ -350,9 +350,6 @@ const projectId = toRef(props, 'projectId')
 const DRAG_OPTIONS = {
 	// sortable options
 	animation: 150,
-	// Sortable's default of 30px only auto-scrolls the board when the pointer is nearly at
-	// its edge, so a task dragged towards a bucket off screen would never reach it.
-	scrollSensitivity: 80,
 	ghostClass: 'ghost',
 	dragClass: 'task-dragging',
 	delayOnTouchOnly: true,
